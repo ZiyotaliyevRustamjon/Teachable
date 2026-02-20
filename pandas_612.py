@@ -30,5 +30,5 @@ print(titanicdata)
 filtr=titanicdata[titanicdata['Sex']=="female"]
 print(filtr)
 
-filtr=[titanicdata['Age'] < 15]
+filtr=titanicdata[titanicdata['Age'] < 15]
 print(filtr)
